@@ -1,4 +1,4 @@
-### Project Modified by ASG and Raghu, The Security Expert
+### Project Modified by ASG and Raghu The Security Expert
 
 This project is inspired by [privateGPT](https://github.com/imartinez/privateGPT) and [ollama](https://github.com/jmorganca/ollama).
 
