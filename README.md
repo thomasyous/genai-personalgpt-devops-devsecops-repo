@@ -2,7 +2,7 @@
 
 This project is inspired by [privateGPT](https://github.com/imartinez/privateGPT) and [ollama](https://github.com/jmorganca/ollama).
 
-#### Step 1: Set Up a Virtual Environment
+### Step 1: Set Up a Virtual Environment
 Create a virtual environment named `personalGPT` using conda. This will help isolate the project dependencies and keep your main Python environment clean.
 ```sh
 conda create -n personalGPT
