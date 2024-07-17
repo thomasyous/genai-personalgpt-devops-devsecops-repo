@@ -6,7 +6,7 @@ This project is inspired by [privateGPT](https://github.com/imartinez/privateGPT
 Create a virtual environment named `personalGPT` using conda. This will help isolate the project dependencies and keep your main Python environment clean.
 ```sh
 conda create -n personalGPT
-
+```
 
 #### Step 2: Install the Required Packages
 Install all the necessary packages specified in the requirements.txt file. This ensures that your project has all the dependencies it needs to run properly.
