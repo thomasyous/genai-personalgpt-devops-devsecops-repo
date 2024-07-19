@@ -2,6 +2,17 @@
 
 This project is inspired by [privateGPT](https://github.com/imartinez/privateGPT) and [ollama](https://github.com/jmorganca/ollama).
 
+### Prerequisites
+
+Download C++ Build tools from [Microsoft.com](https://visualstudio.microsoft.com/visual-cpp-build-tools/) and Install 
+1) MSVC v143 - VS 2022 C++ x64/x86 build tools (Latest)
+2) Windows 11 SDK (10.0.22621.0)
+
+Download Miniconda [here](https://docs.anaconda.com/miniconda/miniconda-install/)
+
+Download Ollama [here](https://ollama.com/download)
+
+
 ### Step 1: Set Up a Virtual Environment
 Create a virtual environment named `personalGPT` using conda. This will help isolate the project dependencies and keep your main Python environment clean.
 ```sh
