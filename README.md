@@ -17,6 +17,7 @@ Download Ollama [here](https://ollama.com/download)
 Create a virtual environment named `personalGPT` using conda. This will help isolate the project dependencies and keep your main Python environment clean.
 ```sh
 conda create -n personalGPT python=3.11
+conda activate personaGPT
 ```
 
 ### Step 2: Install the Required Packages
