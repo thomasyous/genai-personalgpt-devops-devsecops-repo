@@ -32,7 +32,7 @@ def main():
 
     llm = Ollama(model=model, callbacks=callbacks)
 
-    qa = RetrievalQA.from_chain_type(llm=llm, chain_type="stuff", retriever=retriever, return_input_documents= not args.hide_source)
+    qa = RetrievalQA.from_chain_type(llm=llm, chain_type="stuff", retriever=retriever, return_source_documents= not args.hide_source)
     # Interactive questions and answers
     while True:
         query = input("\nEnter a query: ")
@@ -44,7 +44,7 @@ def main():
         # Get the answer from the chain
         start = time.time()
         res = qa(query)
-        answer, docs = res['result'], [] if args.hide_source else res['input_documents']
+        answer, docs = res['result'], [] if args.hide_source else res['source_documents']
         end = time.time()
 
         # Print the result
