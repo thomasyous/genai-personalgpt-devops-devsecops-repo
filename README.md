@@ -9,6 +9,7 @@ Download C++ Build tools from [Microsoft.com](https://visualstudio.microsoft.com
 2) Windows 11 SDK (10.0.22621.0)
 
 Download Miniconda from Github [here](https://github.com/asecurityguru/miniconda-for-genai-devops-devsecops-case-study)
+
 Download Miniconda [here](https://docs.anaconda.com/miniconda/miniconda-install/)
 
 Download Ollama [here](https://ollama.com/download)
