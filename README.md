@@ -56,7 +56,7 @@ python myPersonalGPT.py
 
 #### Now, you can enter queries and interact with your documents. For example:
 ```
-Enter a query: Explain the code in the *.java file?
+Enter a query: Find the error or 500 log entry in the file along with the api details. Provide details about the error and the steps that can help fix this error
 ```
 
 ### Trying a Different Model
