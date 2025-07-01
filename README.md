@@ -27,6 +27,13 @@ Install all the necessary packages specified in the requirements.txt file. This 
 
 ```
 pip install -r requirements.txt
+If you get the error:
+× Building wheel for llama-cpp-python (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [102 lines of output]
+      CMake Error: CMAKE_GENERATOR was set but the specified generator doesn't exist. Using CMake default.
+Please follow this link:
+https://github.com/zylon-ai/private-gpt/issues/445
 ```
 
 ### Step 3:  Pull the Models
